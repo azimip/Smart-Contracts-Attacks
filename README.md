@@ -21,7 +21,13 @@ npm install hardhat -g
 
 ## Running the Project
 
-To run the project, you first need to start a test network by running the following command:
+To run the project, first install the npm dependencies:
+
+```
+npm install
+```
+
+Then, you first need to start a test network by running the following command:
 
 ```
 npx hardhat node
@@ -44,10 +50,12 @@ Additionally, there is a test case example for one of the attacks. This test can
 npx hardhat test
 ```
 
+
 ## Important Note:
 In case the code didn't compile successfully, you can initialize a new hardhat project using:
 ```
 npx hardhat
 ```
 
-And copy the content of test, scripts, and contracts folder to that project. That will solve the dependency problems.
+And copy the content of hardhat.config.js file and test, scripts, and contracts folders to that project. That will solve the dependency problems.
+
