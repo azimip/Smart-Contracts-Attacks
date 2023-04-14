@@ -43,3 +43,11 @@ Additionally, there is a test case example for one of the attacks. This test can
 ```
 npx hardhat test
 ```
+
+## Important Note:
+In case the code didn't compile successfully, you can initialize a new hardhat project using:
+```
+npx hardhat
+```
+
+And copy the content of test, scripts, and contracts folder to that project. That will solve the dependency problems.
