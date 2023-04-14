@@ -1,0 +1,289 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/parsa/SFU/CMPT733/Project/final_project/contracts/CoinFlip.sol": {
+      "lastModificationDate": 1681441312021,
+      "contentHash": "986d35aa954be0349765240c07e3dc9c",
+      "sourceName": "contracts/CoinFlip.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CoinFlip"
+      ]
+    },
+    "/Users/parsa/SFU/CMPT733/Project/final_project/contracts/EtherStore.sol": {
+      "lastModificationDate": 1681417135156,
+      "contentHash": "c490605c521a7e95ed4fd87ad5b1bfc1",
+      "sourceName": "contracts/EtherStore.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "EtherStore"
+      ]
+    },
+    "/Users/parsa/SFU/CMPT733/Project/final_project/contracts/CoinFlip-Attack.sol": {
+      "lastModificationDate": 1681442917090,
+      "contentHash": "ee1415775bc8f32697481c0cef523db6",
+      "sourceName": "contracts/CoinFlip-Attack.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./CoinFlip.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CoinFlipAttack"
+      ]
+    },
+    "/Users/parsa/SFU/CMPT733/Project/final_project/contracts/Confidante.sol": {
+      "lastModificationDate": 1681440945563,
+      "contentHash": "0a15b57244986f7e23c0600aee4d28a2",
+      "sourceName": "contracts/Confidante.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Confidante"
+      ]
+    },
+    "/Users/parsa/SFU/CMPT733/Project/final_project/contracts/Simple-Attack.sol": {
+      "lastModificationDate": 1681441242666,
+      "contentHash": "5e651912de5da02c4b5d7cca87ef4e4e",
+      "sourceName": "contracts/Simple-Attack.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SimpleAttack"
+      ]
+    },
+    "/Users/parsa/SFU/CMPT733/Project/final_project/contracts/Simple.sol": {
+      "lastModificationDate": 1681441242685,
+      "contentHash": "ee6874f6c36628b0eee7af1724dd696c",
+      "sourceName": "contracts/Simple.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Simple"
+      ]
+    },
+    "/Users/parsa/SFU/CMPT733/Project/final_project/contracts/EtherStore-Attack.sol": {
+      "lastModificationDate": 1681444217120,
+      "contentHash": "04e785e477cc1d0b91862154785f9c57",
+      "sourceName": "contracts/EtherStore-Attack.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./EtherStore.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Attack"
+      ]
+    },
+    "/Users/parsa/SFU/CMPT733/Project/final_project/contracts/Fallback.sol": {
+      "lastModificationDate": 1681445056493,
+      "contentHash": "ba4935cd060148c41e6e6387e40f96cc",
+      "sourceName": "contracts/Fallback.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Fallback"
+      ]
+    }
+  }
+}
